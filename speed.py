@@ -4,7 +4,6 @@ from moviepy.editor import *
 # loading video gfg
 clip = VideoFileClip("input.mp4")
 
-
 # getting subclip from it
 clip = clip.subclip(0, 9)
 

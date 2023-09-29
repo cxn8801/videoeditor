@@ -12,7 +12,7 @@ clip = clip.subclip(0, 10)
 clip = clip.volumex(0.8)
 	
 # Generate a text clip
-txt_clip = TextClip("GeeksforGeeks", fontsize = 75, color = 'black')
+txt_clip = TextClip("你好moviepy", font="./font/msyh.ttf", fontsize = 75, color = 'black')
 	
 # setting position of text in the center and duration will be 10 seconds
 txt_clip = txt_clip.set_pos('center').set_duration(10)

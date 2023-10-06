@@ -15,3 +15,5 @@ final = CompositeVideoClip([clip1, clip2])
   
 # showing final clip
 final.ipython_display(width = 480)
+
+final.write

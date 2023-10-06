@@ -2,7 +2,7 @@ from moviepy.editor import *
 from moviepy.video.tools.subtitles import SubtitlesClip
 
 
-print ( TextClip.list("font") )
+# print ( TextClip.list("font") )
 
 generator = lambda txt: TextClip(txt, font='SimHei', fontsize=24, color='white')
 subs = [((0, 4), '你好字幕'),

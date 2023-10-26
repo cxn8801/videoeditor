@@ -14,6 +14,7 @@ clip3 = VideoFileClip("input.mp4").subclip(40, 45)
 # rotating clip1 by 270 degree to get the clip4
 clip4 = VideoFileClip("input.mp4").subclip(60, 70)
  
+clip4 = clip4.resize(1.5)
  
 # list of clips
 clips = [[clip1, clip2],
